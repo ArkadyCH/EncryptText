@@ -8,3 +8,13 @@ D:\Projects\C#\EncryptString\EncryptString\obj\Release\EncryptString.csproj.Core
 D:\Projects\C#\EncryptString\EncryptString\obj\Release\EncryptString.exe
 D:\Projects\C#\EncryptString\EncryptString\obj\Release\EncryptString.pdb
 D:\Projects\C#\EncryptString\EncryptString\obj\Release\EncryptString.csprojAssemblyReference.cache
+D:\Peojects\C#\EncryptString\EncryptString\bin\Release\EncryptString.exe.config
+D:\Peojects\C#\EncryptString\EncryptString\bin\Release\EncryptString.exe
+D:\Peojects\C#\EncryptString\EncryptString\bin\Release\EncryptString.pdb
+D:\Peojects\C#\EncryptString\EncryptString\obj\Release\EncryptString.csprojAssemblyReference.cache
+D:\Peojects\C#\EncryptString\EncryptString\obj\Release\EncryptString.Form1.resources
+D:\Peojects\C#\EncryptString\EncryptString\obj\Release\EncryptString.Properties.Resources.resources
+D:\Peojects\C#\EncryptString\EncryptString\obj\Release\EncryptString.csproj.GenerateResource.cache
+D:\Peojects\C#\EncryptString\EncryptString\obj\Release\EncryptString.csproj.CoreCompileInputs.cache
+D:\Peojects\C#\EncryptString\EncryptString\obj\Release\EncryptString.exe
+D:\Peojects\C#\EncryptString\EncryptString\obj\Release\EncryptString.pdb
