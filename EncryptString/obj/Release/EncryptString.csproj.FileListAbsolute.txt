@@ -1,0 +1,10 @@
+D:\Projects\C#\EncryptString\EncryptString\bin\Release\EncryptString.exe.config
+D:\Projects\C#\EncryptString\EncryptString\bin\Release\EncryptString.exe
+D:\Projects\C#\EncryptString\EncryptString\bin\Release\EncryptString.pdb
+D:\Projects\C#\EncryptString\EncryptString\obj\Release\EncryptString.Form1.resources
+D:\Projects\C#\EncryptString\EncryptString\obj\Release\EncryptString.Properties.Resources.resources
+D:\Projects\C#\EncryptString\EncryptString\obj\Release\EncryptString.csproj.GenerateResource.cache
+D:\Projects\C#\EncryptString\EncryptString\obj\Release\EncryptString.csproj.CoreCompileInputs.cache
+D:\Projects\C#\EncryptString\EncryptString\obj\Release\EncryptString.exe
+D:\Projects\C#\EncryptString\EncryptString\obj\Release\EncryptString.pdb
+D:\Projects\C#\EncryptString\EncryptString\obj\Release\EncryptString.csprojAssemblyReference.cache
