@@ -33,7 +33,7 @@ namespace EncryptString
             // Создаём объект Rijndael
             using (Rijndael myRijndael = Rijndael.Create())
             {
-                // Если мы не задали ключ, то генерируем Base64 ключ
+                // Если мы не задали ключ, то генерируем новый
                 // иначе берём его из поля
                 if (textBox7.Text != "")
                     myRijndael.Key = Convert.FromBase64String(textBox7.Text);
