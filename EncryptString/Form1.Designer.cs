@@ -65,6 +65,7 @@ namespace EncryptString
             if (plainText == null || plainText.Length <= 0)
                 throw new System.ArgumentException("Заполните поле с исходным текстом");
             byte[] encrypted;
+
             // Создаем Rijndael объект
             // С использованием указанного ключа и вектором инициализации.
             using (Rijndael rijAlg = Rijndael.Create())
@@ -99,7 +100,7 @@ namespace EncryptString
         {
             // Проверяем аргументы.
             if (cipherText == null || cipherText.Length <= 0)
-                throw new System.ArgumentException("Заполните поле с шифром");
+                throw new System.ArgumentException("Сначала зашифруйте текст");
 
             // Объявляем строку, которая будет использоваться
             // для расшифрованого текста.
