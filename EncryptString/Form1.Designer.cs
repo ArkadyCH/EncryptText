@@ -63,11 +63,7 @@ namespace EncryptString
         {
             // Проверяем наличие проверяемых аргументов
             if (plainText == null || plainText.Length <= 0)
-                throw new ArgumentNullException("plainText");
-            if (Key == null || Key.Length <= 0)
-                throw new ArgumentNullException("Key");
-            if (IV == null || IV.Length <= 0)
-                throw new ArgumentNullException("IV");
+                throw new System.ArgumentException("Заполните поле с исходным текстом");
             byte[] encrypted;
             // Создаем Rijndael объект
             // С использованием указанного ключа и вектором инициализации.
@@ -103,11 +99,7 @@ namespace EncryptString
         {
             // Проверяем аргументы.
             if (cipherText == null || cipherText.Length <= 0)
-                throw new ArgumentNullException("cipherText");
-            if (Key == null || Key.Length <= 0)
-                throw new ArgumentNullException("Key");
-            if (IV == null || IV.Length <= 0)
-                throw new ArgumentNullException("IV");
+                throw new System.ArgumentException("Заполните поле с шифром");
 
             // Объявляем строку, которая будет использоваться
             // для расшифрованого текста.
@@ -161,6 +153,7 @@ namespace EncryptString
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -270,11 +263,22 @@ namespace EncryptString
             this.label5.TabIndex = 13;
             this.label5.Text = "Ключ";
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(455, 307);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(149, 23);
+            this.button3.TabIndex = 14;
+            this.button3.Text = "Сгенерировать ключ";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(646, 381);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -308,6 +312,7 @@ namespace EncryptString
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button3;
     }
 }
 
